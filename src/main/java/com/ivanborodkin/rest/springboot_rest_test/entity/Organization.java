@@ -3,7 +3,7 @@ package com.ivanborodkin.rest.springboot_rest_test.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "organizations1")
+@Table(name = "organizations2") // connection to PostgreSQL Database
 public class Organization {
 
     @Id
